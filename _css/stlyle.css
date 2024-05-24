@@ -5,6 +5,9 @@
 nav#menu ul{
     text-transform: uppercase;
     list-style: none;
+    position: absolute;
+    top: 60px;
+    left: 900px;
 }
 nav#menu{
     display: block;
@@ -12,6 +15,8 @@ nav#menu{
 
 nav#menu li{
     display: inline-block;
+    background-color: rgba(108, 108, 236, 0.87);
+    padding: 12px;
 }
 body{
     background: rgb(63,94,251);
@@ -20,6 +25,6 @@ body{
     header{
        background-color: antiquewhite; 
        padding-top: 70px;
-       padding-bottom: 60px;
+       padding-bottom: 10px;
        position:relative;
     }
