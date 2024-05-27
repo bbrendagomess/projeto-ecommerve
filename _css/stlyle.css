@@ -1,13 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav#menu ul{
     text-transform: uppercase;
     list-style: none;
     position: absolute;
     top: 60px;
-    left: 900px;
+    left: 930px;
 }
 nav#menu{
     display: block;
@@ -27,4 +28,22 @@ body{
        padding-top: 70px;
        padding-bottom: 10px;
        position:relative;
+    }
+
+    /*Pseudoclasse para estilização de menu de navagção*/
+    nav#menu a:link{
+        text-decoration: none;
+        color: antiquewhite;
+        font-weight: bold;
+    }
+    nav#menu a:visited{
+        text-decoration: none;
+        color: antiquewhite;
+        font-weight: bold;
+    }
+    nav#menu a:hover{
+        color: rgba(18, 18, 105, 0.87);
+    }
+    nav#menu li:hover{
+        background-color: rgba(32, 32, 145, 0.87)
     }
