@@ -47,3 +47,20 @@ body{
     nav#menu li:hover{
         background-color: rgba(32, 32, 145, 0.87)
     }
+    
+    /* mapipulação de imagens do projhetos , na página produtos */
+    .produtos img{
+       max-width: 300px; 
+
+    }
+    .produtos p{ 
+        color: aliceblue;
+    }
+
+    .precodesc{
+        font-size: 30px;
+    }
+ 
+    .produtos img{
+        max-width: 300px;
+    }
